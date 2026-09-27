@@ -1,0 +1,956 @@
+[
+  {
+    "canonicalName": "Amoxicilina 500mg Cápsula",
+    "displayName": "Amoxicilina 500mg (Genérico EMS)",
+    "genericName": "Amoxicilina",
+    "brandName": "Amoxicilina Genérico",
+    "slug": "amoxicilina-500mg-capsula",
+    "pharmaceuticalForm": "CAPSULE",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 500,
+    "strengthUnit": "mg",
+    "manufacturerName": "EMS S/A",
+    "anvisaRegistration": "1023506430018",
+    "prescriptionRequired": true,
+    "category": "CLINICAL_GENERAL",
+    "isCompounded": false,
+    "clinicalNotes": "Antimicrobiano de uso terapêutico com ação bactericida beta-lactâmica de amplo espectro.",
+    "monitoringNotes": "Monitorar resposta clínica, temperatura e integridade da microbiota gastrointestinal.",
+    "harmReductionTips": "Administrar junto a refeições para mitigar desconforto gástrico. Manter hidratação abundante.",
+    "ingredients": [
+      {
+        "canonicalName": "Amoxicilina",
+        "normalizedName": "amoxicilina",
+        "dcbNumber": "00684",
+        "atcCode": "J01CA04",
+        "rxCui": "723",
+        "description": "Antibiótico bactericida beta-lactâmico de amplo espectro.",
+        "strengthValue": 500,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Antimicrobiano de uso terapêutico comum não proibido pela WADA."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Dipirona Monoidratada 500mg",
+    "displayName": "Novalgina 500mg Comprimido",
+    "genericName": "Dipirona Monoidratada",
+    "brandName": "Novalgina",
+    "slug": "novalgina-500mg-comprimido",
+    "pharmaceuticalForm": "TABLET",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 500,
+    "strengthUnit": "mg",
+    "manufacturerName": "Sanofi Medley",
+    "anvisaRegistration": "1130001830012",
+    "prescriptionRequired": false,
+    "category": "CLINICAL_GENERAL",
+    "isCompounded": false,
+    "clinicalNotes": "Analgésico e antipirético de amplo uso ambulatorial para controle álgico e febril.",
+    "monitoringNotes": "Observar sinais de hipersensibilidade ou hipotensão transitória em doses elevadas.",
+    "harmReductionTips": "Evitar uso contínuo desnecessário sem avaliação diagnóstica subjacente.",
+    "ingredients": [
+      {
+        "canonicalName": "Dipirona",
+        "normalizedName": "dipirona",
+        "dcbNumber": "03185",
+        "atcCode": "N02BB02",
+        "rxCui": "10986",
+        "description": "Analgésico e antipirético de ação periférica e central.",
+        "strengthValue": 500,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Analgésico comum não sujeito a restrição esportiva pela WADA."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Losartana Potássica 50mg",
+    "displayName": "Cozaar 50mg Comprimido Revestido",
+    "genericName": "Losartana Potássica",
+    "brandName": "Cozaar",
+    "slug": "cozaar-50mg-comprimido",
+    "pharmaceuticalForm": "TABLET",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 50,
+    "strengthUnit": "mg",
+    "manufacturerName": "Organon Farmacêutica",
+    "anvisaRegistration": "1002900080015",
+    "prescriptionRequired": true,
+    "category": "CLINICAL_GENERAL",
+    "isCompounded": false,
+    "clinicalNotes": "Antagonista dos receptores AT1 da angiotensina II para controle pressórico e nefroproteção.",
+    "monitoringNotes": "Monitorar pressão arterial em repouso e potássio sérico (risco de hipercalemia).",
+    "harmReductionTips": "Não interromper abruptamente. Avaliar interação com moduladores de SRAA e diuréticos.",
+    "ingredients": [
+      {
+        "canonicalName": "Losartana",
+        "normalizedName": "losartana",
+        "dcbNumber": "05436",
+        "atcCode": "C09CA01",
+        "rxCui": "52175",
+        "description": "Antagonista dos receptores da angiotensina II (anti-hipertensivo).",
+        "strengthValue": 50,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Anti-hipertensivo convencional não proibido pela WADA."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Decadron 4mg",
+    "displayName": "Decadron 4mg Comprimido",
+    "genericName": "Fosfato Dissódico de Dexametasona",
+    "brandName": "Decadron",
+    "slug": "decadron-4mg-comprimido",
+    "pharmaceuticalForm": "TABLET",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 4,
+    "strengthUnit": "mg",
+    "manufacturerName": "Aché Laboratórios",
+    "anvisaRegistration": "1057303030010",
+    "prescriptionRequired": true,
+    "category": "CLINICAL_GENERAL",
+    "isCompounded": false,
+    "clinicalNotes": "Glicocorticoide sintético de alta potência anti-inflamatória e imunomoduladora.",
+    "monitoringNotes": "Monitorar glicemia de jejum e retenção hídrica em tratamentos superiores a 5 dias.",
+    "harmReductionTips": "Desmame gradual recomendado para prevenir insuficiência adrenal secundária.",
+    "ingredients": [
+      {
+        "canonicalName": "Dexametasona",
+        "normalizedName": "dexametasona",
+        "dcbNumber": "02901",
+        "atcCode": "H02AB02",
+        "rxCui": "3264",
+        "description": "Glicocorticoide sintético de alta potência com ação anti-inflamatória e imunossupressora.",
+        "strengthValue": 4,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S9",
+          "status": "PROHIBITED_IN_COMPETITION",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": false,
+          "description": "Glicocorticoides são proibidos em competição quando administrados por qualquer via injetável, oral ou retal."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Omeprazol 20mg Cápsula",
+    "displayName": "Losec Mups 20mg Comprimido Revestido",
+    "genericName": "Omeprazol Magnesiano",
+    "brandName": "Losec Mups",
+    "slug": "losec-mups-20mg-comprimido",
+    "pharmaceuticalForm": "CAPSULE",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 20,
+    "strengthUnit": "mg",
+    "manufacturerName": "AstraZeneca do Brasil",
+    "anvisaRegistration": "1161800880016",
+    "prescriptionRequired": false,
+    "category": "CLINICAL_GENERAL",
+    "isCompounded": false,
+    "clinicalNotes": "Inibidor da bomba de prótons (IBP) para supressão da secreção ácida gástrica.",
+    "monitoringNotes": "Em uso crônico, monitorar níveis séricos de Vitamina B12 e Magnésio.",
+    "harmReductionTips": "Ingerir em jejum matinal, cerca de 30 minutos antes do desjejum para otimização da biodisponibilidade.",
+    "ingredients": [
+      {
+        "canonicalName": "Omeprazol",
+        "normalizedName": "omeprazol",
+        "dcbNumber": "06540",
+        "atcCode": "A02BC01",
+        "rxCui": "7646",
+        "description": "Inibidor irreversível da bomba de prótons H+/K+-ATPase parietal gástrica.",
+        "strengthValue": 20,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Protetor gástrico permitido pelo código mundial antidoping."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Metformina 850mg",
+    "displayName": "Glifage XR 850mg Comprimido de Liberação Prolongada",
+    "genericName": "Cloridrato de Metformina",
+    "brandName": "Glifage XR",
+    "slug": "glifage-xr-850mg-comprimido",
+    "pharmaceuticalForm": "TABLET",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 850,
+    "strengthUnit": "mg",
+    "manufacturerName": "Merck S/A",
+    "anvisaRegistration": "1008902880017",
+    "prescriptionRequired": true,
+    "category": "CLINICAL_GENERAL",
+    "isCompounded": false,
+    "clinicalNotes": "Biguanida sensibilizadora de insulina com inibição da gliconeogênese hepática e melhora da captação muscular.",
+    "monitoringNotes": "Acompanhar hemoglobina glicada (HbA1c), taxa de filtração glomerular (eGFR) e Vitamina B12.",
+    "harmReductionTips": "Ingerir durante ou logo após a maior refeição para evitar desconforto gastrointestinal.",
+    "ingredients": [
+      {
+        "canonicalName": "Metformina",
+        "normalizedName": "metformina",
+        "dcbNumber": "05903",
+        "atcCode": "A10BA02",
+        "rxCui": "6809",
+        "description": "Anti-hiperglicemiante oral do grupo das biguanidas.",
+        "strengthValue": 850,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Agente antidiabético permitido no esporte competitivo pela WADA."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Durateston 250mg/ml Injetável",
+    "displayName": "Durateston Plus 250mg/ml • Injetável",
+    "genericName": "Propionato, Fempropionato, Isocaproato e Decanoato de Testosterona",
+    "brandName": "Durateston",
+    "slug": "durateston-plus-250mg-ml-injetavel",
+    "pharmaceuticalForm": "INJECTION",
+    "routeOfAdministration": "INTRAMUSCULAR",
+    "strengthValue": 250,
+    "strengthUnit": "mg/ml",
+    "manufacturerName": "Aspen Pharma / Organon",
+    "anvisaRegistration": "1017100860011",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Mistura de quatro ésteres de testosterona com cinética rápida e sustentada no organismo.",
+    "monitoringNotes": "⚠️ Monitorar Hematócrito & Perfil Lipídico a cada 60-90 dias. Acompanhar TGO/TGP, PSA e Estradiol.",
+    "harmReductionTips": "🛡️ Considerar Ômega-3 e doação de sangue terapêutica se hematócrito > 52%. Monitorar pressão arterial regularmente.",
+    "ingredients": [
+      {
+        "canonicalName": "Testosterona",
+        "normalizedName": "testosterona",
+        "dcbNumber": "08528",
+        "atcCode": "G03BA03",
+        "rxCui": "10324",
+        "description": "Hormônio esteroide androgênico anabólico endógeno primário.",
+        "strengthValue": 250,
+        "strengthUnit": "mg/ml",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S1.1",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Esteroides Anabólicos Androgênicos (EAA) - Proibido em qualquer momento (em e fora de competição)."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Deposteron 200mg/2ml",
+    "displayName": "Deposteron 200mg Injetável",
+    "genericName": "Cipionato de Testosterona",
+    "brandName": "Deposteron",
+    "slug": "deposteron-200mg-injetavel",
+    "pharmaceuticalForm": "INJECTION",
+    "routeOfAdministration": "INTRAMUSCULAR",
+    "strengthValue": 200,
+    "strengthUnit": "mg",
+    "manufacturerName": "EMS S/A",
+    "anvisaRegistration": "1023503520019",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Éster de ação intermediária-longa para reposição androgênica e suporte ergogênico.",
+    "monitoringNotes": "⚠️ Monitorar Hematócrito, PSA, Estradiol e Perfil Lipídico.",
+    "harmReductionTips": "🛡️ Aplicar técnica de assepsia rigorosa em injeção intramuscular profunda. Fracionar aplicações conforme meia-vida.",
+    "ingredients": [
+      {
+        "canonicalName": "Testosterona",
+        "normalizedName": "testosterona",
+        "dcbNumber": "08528",
+        "atcCode": "G03BA03",
+        "rxCui": "10324",
+        "description": "Hormônio esteroide androgênico anabólico endógeno primário.",
+        "strengthValue": 200,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S1.1",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Esteroides Anabólicos Androgênicos (EAA) - Proibido em qualquer momento."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Deca-Durabolin 50mg/ml Injetável",
+    "displayName": "Deca-Durabolin 50mg/ml • Injetável",
+    "genericName": "Decanoato de Nandrolona",
+    "brandName": "Deca-Durabolin",
+    "slug": "deca-durabolin-50mg-ml-injetavel",
+    "pharmaceuticalForm": "INJECTION",
+    "routeOfAdministration": "INTRAMUSCULAR",
+    "strengthValue": 50,
+    "strengthUnit": "mg/ml",
+    "manufacturerName": "Aspen Pharma",
+    "anvisaRegistration": "1017100340019",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Derivado da 19-nortestosterona com elevada afinidade anabólica e suporte à síntese de colágeno articular.",
+    "monitoringNotes": "⚠️ Monitorar Prolactina Sérica, Perfil Lipídico e Pressão Arterial.",
+    "harmReductionTips": "🛡️ Risco de elevação de prolactina e supressão profunda do eixo HPT. Proteger função cardiovascular.",
+    "ingredients": [
+      {
+        "canonicalName": "Decanoato de Nandrolona",
+        "normalizedName": "decanoato de nandrolona",
+        "dcbNumber": "06354",
+        "atcCode": "A14AB01",
+        "rxCui": "7242",
+        "description": "Esteroide anabólico sintético derivado da 19-nortestosterona com alta ação miotrófica.",
+        "strengthValue": 50,
+        "strengthUnit": "mg/ml",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S1.1",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Esteroides Anabólicos Androgênicos (EAA) exógenos - Proibido em e fora de competição."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Oxandrolona 10mg",
+    "displayName": "Oxandrolona 10mg Comprimido",
+    "genericName": "Oxandrolona",
+    "brandName": "Oxandrolona Oficial",
+    "slug": "oxandrolona-10mg-comprimido",
+    "pharmaceuticalForm": "TABLET",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 10,
+    "strengthUnit": "mg",
+    "manufacturerName": "Laboratório Magistral Certificado",
+    "anvisaRegistration": "8023400000011",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Esteroide anabólico sintético oral derivado da DHT com baixa retenção hídrica e seletividade anabólica.",
+    "monitoringNotes": "⚠️ Acompanhar Perfil Lipídico (redução acentuada de HDL) e Transaminases Hepáticas (TGO/TGP).",
+    "harmReductionTips": "🛡️ Composto 17-alfa-alquilado. Considerar suporte protetor hepático com NAC (600-1200mg) e Silimarina.",
+    "ingredients": [
+      {
+        "canonicalName": "Oxandrolona",
+        "normalizedName": "oxandrolona",
+        "dcbNumber": "06734",
+        "atcCode": "A14AA08",
+        "rxCui": "7779",
+        "description": "Esteroide anabólico sintético derivado da di-hidrotestosterona (DHT).",
+        "strengthValue": 10,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S1.1",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Esteroides Anabólicos Androgênicos exógenos - Proibido em qualquer momento."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Clenbuterol 0,02mg",
+    "displayName": "Clenbuterol 20mcg Comprimido",
+    "genericName": "Cloridrato de Clenbuterol",
+    "brandName": "Spiropent / Clenbuterol",
+    "slug": "clenbuterol-20mcg-comprimido",
+    "pharmaceuticalForm": "TABLET",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 20,
+    "strengthUnit": "mcg",
+    "manufacturerName": "Boehringer Ingelheim",
+    "anvisaRegistration": "1036700010012",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Agonista beta-2 adrenérgico potente com impacto na termogênese e lipólise por up-regulation simpática.",
+    "monitoringNotes": "⚠️ Monitorar Frequência Cardíaca de repouso, Pressão Arterial e Potássio Sérico.",
+    "harmReductionTips": "🛡️ Recomenda-se ciclagem com pausas (15 dias on / 15 dias off) para receptores beta-2 e suporte de Taurina.",
+    "ingredients": [
+      {
+        "canonicalName": "Clenbuterol",
+        "normalizedName": "clenbuterol",
+        "dcbNumber": "02450",
+        "atcCode": "R03CC13",
+        "rxCui": "2544",
+        "description": "Agonista beta-2 adrenérgico potente com efeito termogênico e broncodilatador.",
+        "strengthValue": 20,
+        "strengthUnit": "mcg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S1.2",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Outros Agentes Anabólicos / Beta-2 Agonistas - Proibido integralmente."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Hemogenin 50mg Comprimido",
+    "displayName": "Hemogenin 50mg Comprimido",
+    "genericName": "Oximetolona",
+    "brandName": "Hemogenin",
+    "slug": "hemogenin-50mg-comprimido",
+    "pharmaceuticalForm": "TABLET",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 50,
+    "strengthUnit": "mg",
+    "manufacturerName": "Sanofi Medley",
+    "anvisaRegistration": "1130000450013",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Esteroide anabólico oral de alta potência androgênica e rápida expansão de volume eritrocitário.",
+    "monitoringNotes": "⚠️ Monitorar intensamente Transaminases Hepáticas (TGO/TGP), Bilirrubinas, Pressão Arterial e Hematócrito.",
+    "harmReductionTips": "🛡️ Forte sobrecarga hepática (17-aa). Limitar duração de uso contínuo (máximo 4 a 6 semanas) e monitorar pressão.",
+    "ingredients": [
+      {
+        "canonicalName": "Oximetolona",
+        "normalizedName": "oximetolona",
+        "dcbNumber": "06752",
+        "atcCode": "A14AA05",
+        "rxCui": "7804",
+        "description": "Esteroide anabólico oral derivado da di-hidrotestosterona com elevada potência miotrófica.",
+        "strengthValue": 50,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S1.1",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Esteroides Anabólicos Androgênicos exógenos - Proibido em qualquer momento."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Primobolan Depot 100mg/ml",
+    "displayName": "Primobolan Depot 100mg/ml Injetável",
+    "genericName": "Enantato de Metenolona",
+    "brandName": "Primobolan Depot",
+    "slug": "primobolan-depot-100mg-ml",
+    "pharmaceuticalForm": "INJECTION",
+    "routeOfAdministration": "INTRAMUSCULAR",
+    "strengthValue": 100,
+    "strengthUnit": "mg/ml",
+    "manufacturerName": "Bayer / Schering",
+    "anvisaRegistration": "1004500320014",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Esteroide anabólico injetável derivado da DHT com baixa incidência de aromatização e perfil androgênico moderado.",
+    "monitoringNotes": "⚠️ Monitorar Perfil Lipídico e Perfil Hepático.",
+    "harmReductionTips": "🛡️ Por ser derivado de DHT, não aromatiza em estrogênio, mas pode afetar negativamente o colesterol HDL.",
+    "ingredients": [
+      {
+        "canonicalName": "Metenolona",
+        "normalizedName": "metenolona",
+        "dcbNumber": "05928",
+        "atcCode": "A14AA04",
+        "rxCui": "6828",
+        "description": "Esteroide anabólico sintético com moderada ação anabólica e mínimo impacto estrogênico.",
+        "strengthValue": 100,
+        "strengthUnit": "mg/ml",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S1.1",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Esteroides Anabólicos Androgênicos (EAA) exógenos - Proibido em e fora de competição."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Masteron 100mg/ml Injetável",
+    "displayName": "Masteron 100mg/ml Injetável",
+    "genericName": "Propionato de Drostanolona",
+    "brandName": "Masteron",
+    "slug": "masteron-100mg-ml-injetavel",
+    "pharmaceuticalForm": "INJECTION",
+    "routeOfAdministration": "INTRAMUSCULAR",
+    "strengthValue": 100,
+    "strengthUnit": "mg/ml",
+    "manufacturerName": "Laboratório Magistral Especializado",
+    "anvisaRegistration": "8023400000022",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Derivado sintético da DHT com atividade antiestrogênica intrínseca e densidade muscular.",
+    "monitoringNotes": "⚠️ Acompanhar Perfil Lipídico, PSA e saúde do couro cabeludo em indivíduos geneticamente suscetíveis.",
+    "harmReductionTips": "🛡️ Monitorar rigidez articular por supressão estrogênica relativa.",
+    "ingredients": [
+      {
+        "canonicalName": "Drostanolona",
+        "normalizedName": "drostanolona",
+        "dcbNumber": "03456",
+        "atcCode": "A14AA09",
+        "rxCui": "3645",
+        "description": "Esteroide anabólico androgênico sintético derivado da di-hidrotestosterona.",
+        "strengthValue": 100,
+        "strengthUnit": "mg/ml",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S1.1",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Esteroides Anabólicos Androgênicos (EAA) exógenos - Proibido em qualquer momento."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Somatropina 12 UI (4mg) Injetável",
+    "displayName": "Norditropin NordiFlex 10mg / 1.5ml",
+    "genericName": "Somatropina Recombinante",
+    "brandName": "Norditropin",
+    "slug": "norditropin-nordiflex-somatropina",
+    "pharmaceuticalForm": "INJECTION",
+    "routeOfAdministration": "SUBCUTANEOUS",
+    "strengthValue": 10,
+    "strengthUnit": "mg",
+    "manufacturerName": "Novo Nordisk",
+    "anvisaRegistration": "1176600140018",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Hormônio de crescimento humano recombinante (rhGH) promotor de lipólise, recuperação tecidual e síntese de IGF-1.",
+    "monitoringNotes": "⚠️ Monitorar IGF-1 sérico, Glicemia de jejum, Hemoglobina Glicada (HbA1c) e função tireoidiana (TSH/T4L).",
+    "harmReductionTips": "🛡️ Monitorar resistência insulínica e retenção hídrica periférica (síndrome do túnel do carpo).",
+    "ingredients": [
+      {
+        "canonicalName": "Somatropina",
+        "normalizedName": "somatropina",
+        "dcbNumber": "08145",
+        "atcCode": "H01AC01",
+        "rxCui": "9875",
+        "description": "Polipeptídeo hormonal idêntico ao hormônio de crescimento hipofisário humano.",
+        "strengthValue": 10,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S2.2",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Hormônios Peptídicos, Fatores de Crescimento e Substâncias Afins - Proibido integralmente."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Anastrozol 1mg Comprimido",
+    "displayName": "Arimidex 1mg Comprimido Revestido",
+    "genericName": "Anastrozol",
+    "brandName": "Arimidex",
+    "slug": "arimidex-1mg-comprimido",
+    "pharmaceuticalForm": "TABLET",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 1,
+    "strengthUnit": "mg",
+    "manufacturerName": "AstraZeneca",
+    "anvisaRegistration": "1161800990011",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Inibidor seletivo e potente da enzima aromatase de terceira geração para controle estrogênico.",
+    "monitoringNotes": "⚠️ Monitorar Estradiol (E2) ultrassensível e Perfil Lipídico (HDL/LDL).",
+    "harmReductionTips": "🛡️ Evitar a supressão excessiva do estradiol (< 20 pg/ml), vital para saúde vascular, óssea e neuroproteção.",
+    "ingredients": [
+      {
+        "canonicalName": "Anastrozol",
+        "normalizedName": "anastrozol",
+        "dcbNumber": "00742",
+        "atcCode": "L02BG03",
+        "rxCui": "84857",
+        "description": "Inibidor potente e altamente seletivo da aromatase não esteroide.",
+        "strengthValue": 1,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S4.1",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Moduladores Hormonais e Metabólicos - Inibidores da Aromatase - Proibido em qualquer momento."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Tamoxifeno 20mg Comprimido",
+    "displayName": "Nolvadex-D 20mg Comprimido Revestido",
+    "genericName": "Citrato de Tamoxifeno",
+    "brandName": "Nolvadex",
+    "slug": "nolvadex-d-20mg-comprimido",
+    "pharmaceuticalForm": "TABLET",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 20,
+    "strengthUnit": "mg",
+    "manufacturerName": "AstraZeneca",
+    "anvisaRegistration": "1161800200015",
+    "prescriptionRequired": true,
+    "category": "HORMONAL_ERGOGENIC",
+    "isCompounded": false,
+    "clinicalNotes": "Modulador seletivo de receptor de estrogênio (SERM) com efeito antagonista no tecido mamário.",
+    "monitoringNotes": "Monitorar queixas visuais, perfil lipídico e eventos trombóticos em pacientes predispostos.",
+    "harmReductionTips": "🛡️ Padrão-ouro clínico para manejo profilático de ginecomastia sem zerar o estradiol circulante sistêmico.",
+    "ingredients": [
+      {
+        "canonicalName": "Tamoxifeno",
+        "normalizedName": "tamoxifeno",
+        "dcbNumber": "08480",
+        "atcCode": "L02BA01",
+        "rxCui": "10329",
+        "description": "Modulador seletivo do receptor de estrogênio (SERM).",
+        "strengthValue": 20,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "S4.2",
+          "status": "PROHIBITED_ALL_TIMES",
+          "prohibitedInCompetition": true,
+          "prohibitedOutOfCompetition": true,
+          "description": "Moduladores Seletivos dos Receptores de Estrogênio (SERMs) - Proibido em qualquer momento."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Silimarina 200mg + NAC 600mg Cápsula",
+    "displayName": "Fórmula Hepatoprotetora Avançada • Cápsula",
+    "genericName": "Silimarina + N-Acetilcisteína",
+    "brandName": "Composto Magistral HepatoCare",
+    "slug": "formula-hepatoprotetora-silimarina-nac",
+    "pharmaceuticalForm": "CAPSULE",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 800,
+    "strengthUnit": "mg",
+    "manufacturerName": "Farmácia de Manipulação Magistral",
+    "anvisaRegistration": "8023400000033",
+    "prescriptionRequired": false,
+    "category": "HEPATOPROTECTOR_SUPPORT",
+    "isCompounded": true,
+    "clinicalNotes": "Combinação sinérgica de silimarina e N-acetilcisteína para suporte à homeostase hepática e síntese de glutationa.",
+    "monitoringNotes": "Acompanhar normalização de marcadores de estresse hepático (TGO, TGP, Gama-GT, Fosfatase Alcalina).",
+    "harmReductionTips": "🛡️ Estratégia coadjuvante de redução de danos celulares durante ou após protocolos orais 17-aa.",
+    "ingredients": [
+      {
+        "canonicalName": "Silimarina",
+        "normalizedName": "silimarina",
+        "dcbNumber": "08082",
+        "atcCode": "A05BA03",
+        "rxCui": "9794",
+        "description": "Complexo flavonoídico hepatoprotetor com ação antioxidante e estabilizadora de membrana de hepatócitos.",
+        "strengthValue": 200,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Composto fitoterápico hepatoprotetor sem restrição pelo código WADA/ABCD."
+        }
+      },
+      {
+        "canonicalName": "N-Acetilcisteína",
+        "normalizedName": "n-acetilcisteina",
+        "dcbNumber": "00078",
+        "atcCode": "R05CB01",
+        "rxCui": "72",
+        "description": "Precursor direto da glutationa intracelular com potente ação antioxidante e desintoxicante hepática.",
+        "strengthValue": 600,
+        "strengthUnit": "mg",
+        "isPrimary": false,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Suporte antioxidante e precursor de glutationa sem restrição esportiva."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Ácido Tauroursodesoxicólico 250mg",
+    "displayName": "TUDCA 250mg Cápsula de Suporte Biliar",
+    "genericName": "Ácido Tauroursodesoxicólico (TUDCA)",
+    "brandName": "TUDCA Clinical Hepatic Care",
+    "slug": "tudca-250mg-capsula",
+    "pharmaceuticalForm": "CAPSULE",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 250,
+    "strengthUnit": "mg",
+    "manufacturerName": "Laboratório Magistral Certificado",
+    "anvisaRegistration": "8023400000044",
+    "prescriptionRequired": false,
+    "category": "HEPATOPROTECTOR_SUPPORT",
+    "isCompounded": true,
+    "clinicalNotes": "Sal biliar hidrofílico com potente ação colerética e citoprotetora sobre o retículo endoplasmático dos hepatócitos.",
+    "monitoringNotes": "Monitorar Gama-GT, Fosfatase Alcalina e Bilirrubinas para avaliar fluxo biliar.",
+    "harmReductionTips": "🛡️ Altamente indicado para prevenção e reversão de colestase induzida por esteroides orais alquilados.",
+    "ingredients": [
+      {
+        "canonicalName": "Ácido Tauroursodesoxicólico",
+        "normalizedName": "acido tauroursodesoxicolico",
+        "dcbNumber": "09821",
+        "atcCode": "A05AA",
+        "rxCui": "10411",
+        "description": "Derivado taurino do ácido ursodesoxicólico com propriedades antiapoptóticas hepatocelulares.",
+        "strengthValue": 250,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Ácido biliar fisiológico sem proibição no código mundial antidoping."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Creatina Monohidratada 100% Pura",
+    "displayName": "Creatina Creapure 300g",
+    "genericName": "Creatina Monohidratada",
+    "brandName": "Creapure Heritage Clinical",
+    "slug": "creatina-monohidratada-300g",
+    "pharmaceuticalForm": "POWDER",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 3000,
+    "strengthUnit": "mg",
+    "manufacturerName": "Heritage Nutrition Lab",
+    "anvisaRegistration": "6732900010019",
+    "prescriptionRequired": false,
+    "category": "SUPPLEMENT",
+    "isCompounded": false,
+    "clinicalNotes": "Recurso ergogênico padrão-ouro para ganho de força, potência e ressíntese de fosfatos energéticos.",
+    "monitoringNotes": "Pode elevar creatinina sérica isolada sem comprometimento da taxa de filtração glomerular renal.",
+    "harmReductionTips": "Manter hidratação adequada de 35 a 45 ml/kg/dia.",
+    "ingredients": [
+      {
+        "canonicalName": "Creatina",
+        "normalizedName": "creatina",
+        "dcbNumber": "02685",
+        "atcCode": "A16AA",
+        "rxCui": "2825",
+        "description": "Composto nitrogenado fosforilável para ressíntese rápida de ATP muscular.",
+        "strengthValue": 3000,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Suplemento nutricional permitido pela WADA e ABCD."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Cafeína Anidra 200mg",
+    "displayName": "Cafeína Anidra 200mg Cápsula",
+    "genericName": "Cafeína Anidra",
+    "brandName": "Caffeine Pro Performance",
+    "slug": "cafeina-anidra-200mg-capsula",
+    "pharmaceuticalForm": "CAPSULE",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 200,
+    "strengthUnit": "mg",
+    "manufacturerName": "Heritage Nutrition Lab",
+    "anvisaRegistration": "6732900020021",
+    "prescriptionRequired": false,
+    "category": "SUPPLEMENT",
+    "isCompounded": false,
+    "clinicalNotes": "Estimulante do SNC para foco e aumento da taxa de oxidação lipídica durante esforço físico.",
+    "monitoringNotes": "Monitorar sintomas de ansiedade, taquicardia e insônia em indivíduos metabolizadores lentos (CYP1A2).",
+    "harmReductionTips": "Suspender consumo de 6 a 8 horas antes do repouso noturno.",
+    "ingredients": [
+      {
+        "canonicalName": "Cafeína",
+        "normalizedName": "cafeina",
+        "dcbNumber": "01784",
+        "atcCode": "N06BC01",
+        "rxCui": "1886",
+        "description": "Estimulante do sistema nervoso central, antagonista dos receptores de adenosina.",
+        "strengthValue": 200,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "M1",
+          "status": "MONITORED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Programa de Monitoramento WADA 2026 para detecção de padrões de abuso em competição."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Melatonina 0,21mg",
+    "displayName": "Melatonina Gotas Sublingual 0,21mg",
+    "genericName": "Melatonina",
+    "brandName": "SleepWell Melatonin",
+    "slug": "melatonina-sublingual-gotas",
+    "pharmaceuticalForm": "DROPS",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 0.21,
+    "strengthUnit": "mg",
+    "manufacturerName": "Heritage Pharma Care",
+    "anvisaRegistration": "6732900030032",
+    "prescriptionRequired": false,
+    "category": "SUPPLEMENT",
+    "isCompounded": false,
+    "clinicalNotes": "Neuro-hormônio facilitador do início do sono e sincronizador circadiano.",
+    "monitoringNotes": "Avaliar qualidade subjetiva do sono e evitar combinação com sedativos sem orientação médica.",
+    "harmReductionTips": "Otimizar ambiente escuro e redução de luz azul para maximizar o efeito fisiológico natural.",
+    "ingredients": [
+      {
+        "canonicalName": "Melatonina",
+        "normalizedName": "melatonina",
+        "dcbNumber": "05739",
+        "atcCode": "N05CH01",
+        "rxCui": "6714",
+        "description": "Neuro-hormônio regulador do ciclo circadiano e sono produzido pela glândula pineal.",
+        "strengthValue": 0.21,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Substância promotora de sono não listada como proibida no esporte."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Ômega 3 Ultra Concentrado (EPA 660mg / DHA 440mg)",
+    "displayName": "Ômega 3 Ultra TG 1000mg Cápsula",
+    "genericName": "Óleo de Peixe Concentrado em Triglicerídeos",
+    "brandName": "OmegaCore TG",
+    "slug": "omega-3-ultra-tg-1000mg",
+    "pharmaceuticalForm": "CAPSULE",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 1000,
+    "strengthUnit": "mg",
+    "manufacturerName": "Heritage Nutrition Lab",
+    "anvisaRegistration": "6732900040043",
+    "prescriptionRequired": false,
+    "category": "SUPPLEMENT",
+    "isCompounded": false,
+    "clinicalNotes": "Ácidos graxos poli-insaturados ômega-3 de alta pureza com ação anti-inflamatória endotelial e estabilizadora de placa.",
+    "monitoringNotes": "Monitorar perfil lipídico (redução expressiva de triglicerídeos) e agregação plaquetária em doses acima de 3g/dia.",
+    "harmReductionTips": "🛡️ Essencial em protocolos ergogênicos para proteger o perfil lipídico e modular viscosidade sanguínea.",
+    "ingredients": [
+      {
+        "canonicalName": "Ácidos Graxos Ômega-3",
+        "normalizedName": "acidos graxos omega-3",
+        "dcbNumber": "00142",
+        "atcCode": "C10AX06",
+        "rxCui": "33405",
+        "description": "Ácidos eicosapentaenoico (EPA) e docosahexaenoico (DHA) purificados.",
+        "strengthValue": 1000,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Suplemento nutricional permitido pela WADA."
+        }
+      }
+    ]
+  },
+  {
+    "canonicalName": "Beta-Alanina 2000mg Pó",
+    "displayName": "Beta-Alanina Pura 300g",
+    "genericName": "Beta-Alanina",
+    "brandName": "BetaCharge Pro",
+    "slug": "beta-alanina-pura-300g",
+    "pharmaceuticalForm": "POWDER",
+    "routeOfAdministration": "ORAL",
+    "strengthValue": 2000,
+    "strengthUnit": "mg",
+    "manufacturerName": "Heritage Nutrition Lab",
+    "anvisaRegistration": "6732900050054",
+    "prescriptionRequired": false,
+    "category": "SUPPLEMENT",
+    "isCompounded": false,
+    "clinicalNotes": "Aminoácido não proteinogênico precursor limitante da síntese de carnosina intramuscular (buffer intracelular de íons H+).",
+    "monitoringNotes": "Parestesia transitória benigna (formigamento cutâneo).",
+    "harmReductionTips": "Fracionar em doses de 1.5g a 2g para atenuar sintomas vasomotores e parestesia transitória.",
+    "ingredients": [
+      {
+        "canonicalName": "Beta-Alanina",
+        "normalizedName": "beta-alanina",
+        "dcbNumber": "01239",
+        "atcCode": "A16AA",
+        "rxCui": "1412",
+        "description": "Precursor de carnosina com ação tamponante intracelular em esforços anaeróbios láticos.",
+        "strengthValue": 2000,
+        "strengthUnit": "mg",
+        "isPrimary": true,
+        "wadaRule": {
+          "ruleCode": "LIBERADO",
+          "status": "NOT_PROHIBITED",
+          "prohibitedInCompetition": false,
+          "prohibitedOutOfCompetition": false,
+          "description": "Suplemento de alta eficácia comprovada sem restrição antidopagem."
+        }
+      }
+    ]
+  }
+]

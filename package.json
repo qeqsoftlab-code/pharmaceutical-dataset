@@ -1,0 +1,19 @@
+{
+  "name": "@heritage/pharmaceutical-dataset",
+  "version": "1.0.0",
+  "description": "Dataset canônico de medicamentos ANVISA, princípios ativos DCB/RxNorm e conformidade antidoping WADA/ABCD 2026",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "pharmaceutical",
+    "drugs",
+    "anvisa",
+    "rxnorm",
+    "wada",
+    "harm-reduction",
+    "doping-control"
+  ],
+  "author": "Heritage SaaS <admin@heritagepro.com.br>",
+  "license": "UNLICENSED",
+  "private": true
+}

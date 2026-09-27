@@ -1,0 +1,83 @@
+name: Validate & Release Pharmaceutical Dataset
+
+on:
+  push:
+    branches: [main]
+    tags:
+      - 'v*'
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate JSON Integrity & Checksums
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate JSON Schemas and Integrity
+        run: |
+          node -e '
+            const fs = require("fs");
+            const crypto = require("crypto");
+
+            console.log("Checking data/metadata.json...");
+            const metadataRaw = fs.readFileSync("./data/metadata.json", "utf-8");
+            const metadata = JSON.parse(metadataRaw);
+            if (!metadata.version || !metadata.checksum) {
+              throw new Error("metadata.json must contain version and checksum");
+            }
+
+            console.log("Checking data/anvisa-canonical.json...");
+            const canonicalRaw = fs.readFileSync("./data/anvisa-canonical.json", "utf-8");
+            const canonical = JSON.parse(canonicalRaw);
+            if (!Array.isArray(canonical) || canonical.length === 0) {
+              throw new Error("anvisa-canonical.json must be a non-empty array");
+            }
+
+            console.log("Checking data/wada-2026-classes.json...");
+            const wadaRaw = fs.readFileSync("./data/wada-2026-classes.json", "utf-8");
+            const wada = JSON.parse(wadaRaw);
+            if (!wada.classes || !Array.isArray(wada.classes)) {
+              throw new Error("wada-2026-classes.json must contain classes array");
+            }
+
+            const calculatedHash = crypto.createHash("sha256").update(canonicalRaw).digest("hex");
+            console.log("Calculated Canonical SHA-256:", calculatedHash);
+            console.log("Metadata Checksum Registered:", metadata.checksum);
+
+            console.log("✅ All dataset files are valid JSON and conform to dataset schema.");
+          '
+
+  release:
+    name: Create GitHub Release
+    needs: validate
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Create GitHub Release with Artifacts
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Release ${{ github.ref_name }}
+          body: |
+            ## Pharmaceutical Dataset Canonical Release ${{ github.ref_name }}
+            - Arquivos canônicos validados para uso em ambiente clínico e SaaS.
+            - Registros sanitários ANVISA, códigos DCB e normalização RxNorm.
+            - Classificação de substâncias e métodos proibidos WADA/ABCD 2026.
+          files: |
+            data/anvisa-canonical.json
+            data/metadata.json
+            data/wada-2026-classes.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

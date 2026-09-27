@@ -1,0 +1,129 @@
+{
+  "season": 2026,
+  "authority": "WADA_ABCD",
+  "effectiveFrom": "2026-01-01T00:00:00.000Z",
+  "title": "WADA 2026 Prohibited List & Monitoring Classes",
+  "classes": [
+    {
+      "code": "S0",
+      "name": "Substâncias Não Aprovadas",
+      "description": "Qualquer substância farmacológica não incluída em nenhuma das seções subsequentes e sem aprovação regulatória governamental para uso terapêutico humano.",
+      "prohibitedAllTimes": true,
+      "inCompetition": true,
+      "outOfCompetition": true
+    },
+    {
+      "code": "S1.1",
+      "name": "Esteroides Anabólicos Androgênicos (EAA)",
+      "description": "Esteroides anabólicos androgênicos exógenos e endógenos quando administrados exogenamente (ex.: Testosterona, Nandrolona, Oxandrolona, Oximetolona, Metenolona, Drostanolona).",
+      "prohibitedAllTimes": true,
+      "inCompetition": true,
+      "outOfCompetition": true
+    },
+    {
+      "code": "S1.2",
+      "name": "Outros Agentes Anabólicos",
+      "description": "Inclui, mas não se limita a: Clenbuterol, osilodrostato, ractopamina, SARMs (ex.: andarina, ostarina), tibolona, zeranol e zilpaterol.",
+      "prohibitedAllTimes": true,
+      "inCompetition": true,
+      "outOfCompetition": true
+    },
+    {
+      "code": "S2",
+      "name": "Hormônios Peptídicos, Fatores de Crescimento e Substâncias Afins",
+      "description": "Eritropoietinas (EPO), peptídeos liberadores de gonadotrofina (GnRH), Somatropina (hGH), fatores de crescimento (IGF-1) e seus análogos.",
+      "prohibitedAllTimes": true,
+      "inCompetition": true,
+      "outOfCompetition": true
+    },
+    {
+      "code": "S3",
+      "name": "Agonistas Beta-2",
+      "description": "Todos os agonistas beta-2 seletivos e não-seletivos, com exceções de dosagens terapêuticas inalatórias específicas documentadas.",
+      "prohibitedAllTimes": true,
+      "inCompetition": true,
+      "outOfCompetition": true
+    },
+    {
+      "code": "S4.1",
+      "name": "Inibidores da Aromatase",
+      "description": "Inibidores enzimáticos da síntese de estrogênios como Anastrozol, Letrozol, Exemestano, Aminoglutetimida e Formestano.",
+      "prohibitedAllTimes": true,
+      "inCompetition": true,
+      "outOfCompetition": true
+    },
+    {
+      "code": "S4.2",
+      "name": "Moduladores Seletivos dos Receptores de Estrogênio (SERMs)",
+      "description": "Inclui Tamoxifeno, Raloxifeno, Clomifeno, Toremifeno e Bazedoxifeno.",
+      "prohibitedAllTimes": true,
+      "inCompetition": true,
+      "outOfCompetition": true
+    },
+    {
+      "code": "S4.3",
+      "name": "Outras Substâncias Anti-Estrogênicas",
+      "description": "Substâncias que bloqueiam a sinalização estrogênica, incluindo Fulvestranto.",
+      "prohibitedAllTimes": true,
+      "inCompetition": true,
+      "outOfCompetition": true
+    },
+    {
+      "code": "S4.4",
+      "name": "Moduladores Metabólicos",
+      "description": "Ativadores da proteína quinase ativada por AMP (AMPK, ex.: AICAR), agonistas do PPAR-delta (ex.: GW501516/Cardarine), insulinas e meldonium.",
+      "prohibitedAllTimes": true,
+      "inCompetition": true,
+      "outOfCompetition": true
+    },
+    {
+      "code": "S5",
+      "name": "Diuréticos e Agentes Mascarantes",
+      "description": "Diuréticos (ex.: Furosemida, Hidroclorotiazida, Espironolactona), expansores plasmáticos e desmopressina.",
+      "prohibitedAllTimes": true,
+      "inCompetition": true,
+      "outOfCompetition": true
+    },
+    {
+      "code": "S6",
+      "name": "Estimulantes",
+      "description": "Todos os estimulantes não especificados e especificados proibidos em competição (ex.: Anfetaminas, Metilfenidato, Modafinil, Efedrina).",
+      "prohibitedAllTimes": false,
+      "inCompetition": true,
+      "outOfCompetition": false
+    },
+    {
+      "code": "S7",
+      "name": "Narcóticos",
+      "description": "Buprenorfina, Fentanil, Morfina, Oxicodona e derivados opioides em período de competição.",
+      "prohibitedAllTimes": false,
+      "inCompetition": true,
+      "outOfCompetition": false
+    },
+    {
+      "code": "S8",
+      "name": "Canabinoides",
+      "description": "Todos os canabinoides naturais e sintéticos, exceto Canabidiol (CBD). Proibidos exclusivamente em competição.",
+      "prohibitedAllTimes": false,
+      "inCompetition": true,
+      "outOfCompetition": false
+    },
+    {
+      "code": "S9",
+      "name": "Glicocorticoides",
+      "description": "Todos os glicocorticoides (ex.: Dexametasona, Prednisona, Betametasona, Triancinolona) são proibidos em competição quando administrados por qualquer via oral, retal ou injetável.",
+      "prohibitedAllTimes": false,
+      "inCompetition": true,
+      "outOfCompetition": false
+    },
+    {
+      "code": "M1",
+      "name": "Programa de Monitoramento WADA",
+      "description": "Substâncias que não constam na Lista Proibida, mas cujo padrão de uso no esporte é monitorado pela WADA para detecção de abusos (ex.: Cafeína, Nicotina).",
+      "prohibitedAllTimes": false,
+      "inCompetition": false,
+      "outOfCompetition": false,
+      "isMonitored": true
+    }
+  ]
+}
