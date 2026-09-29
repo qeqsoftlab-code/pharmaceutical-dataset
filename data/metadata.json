@@ -1,12 +1,12 @@
 {
   "dataset": "pharmaceutical-dataset",
-  "version": "2026.09.27",
-  "releaseTag": "v2026.09.27",
-  "checksum": "e6020dcf537387ce2b324f7af13a7c805b309e32a9fe4aecf9662d4d0bee9e99",
-  "totalRecords": 25,
+  "version": "2026.09.29",
+  "releaseTag": "v2026.09.29",
+  "checksum": "8b52b194bba7877101e0da6d3872c07d7c0634fc334275788cee3ec5a97d42f0",
+  "totalRecords": 10343,
   "wadaSeason": 2026,
   "repository": "qeqsoftlab-code/pharmaceutical-dataset",
-  "updatedAt": "2026-09-27T21:08:36.475Z",
+  "updatedAt": "2026-09-29T11:35:24.295Z",
   "standards": [
     "ANVISA_DCB",
     "RXNORM",
